@@ -11,7 +11,7 @@
   max-width: 512px;
 }
 .driver h2 {
-  padding-top: 30%;
+  padding-top: 15%;
 }
 .driver span {
   color: #593cfb;
@@ -33,6 +33,10 @@
   background-color: #4733b7;
   transition: background-color 1s;
 }
+.left {
+  text-align: center;
+}
+
 @media screen and (max-width: 920px) {
   .driver {
     grid-template-columns: 1fr;
@@ -46,5 +50,8 @@
   }
   .driver h2 {
     padding-top: 10%;
+  }
+  .driver .right {
+    text-align: center;
   }
 }

@@ -50,7 +50,7 @@ form .text_input {
   display: flex;
   align-items: center;
 }
-.search_btn btn {
+.search_btn .btn {
   display: none;
 }
 @media screen and (max-width: 720px) {

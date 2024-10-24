@@ -8,7 +8,7 @@ const Driver = () => {
       <div className={styles.left}>
         <img src={Drive} alt="/" />
       </div>
-      <div>
+      <div className={styles.right}>
         <h2>
           Find your perfect car <span>to try before you buy</span>
         </h2>
